@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sara Tonioni – Shop | APERTOSTUDIOS</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .aperto-logo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 60px;
+      height: auto;
+      animation: rotateLogo 10s linear infinite;
+    }
+
+    @keyframes rotateLogo {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .product-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .product-info {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-info h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2em;
+      text-transform: uppercase;
+    }
+
+    .product-info p {
+      margin: 0;
+      font-weight: bold;
+      color: #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.85em;
+      color: #aaa;
+      border-top: 1px solid #eee;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sara Tonioni – Shop</h1>
+    <a href="https://apertostudios.com" target="_blank">
+      <img src="aperto-logo.png" alt="Aperto Studios Logo" class="aperto-logo">
+    </a>
+  </header>
+
+  <main>
+    <section class="product-grid">
+      <div class="product-card">
+        <img src="_DSC0308-1.jpg" alt="Product 1">
+        <div class="product-info">
+          <h3>Can you afford to be an individual? 1/5</h3>
+          <p>€350</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="_DSC0309-3.jpg" alt="Product 2">
+        <div class="product-info">
+          <h3>Can you afford to be an individual? 2/5</h3>
+          <p>€350</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="_DSC0311-3.jpg" alt="Product 3">
+        <div class="product-info">
+          <h3>Can you afford to be an individual? 3/5</h3>
+          <p>€350</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="_DSC0312-3.jpg" alt="Product 4">
+        <div class="product-info">
+          <h3>Can you afford to be an individual? 4/5</h3>
+          <p>€350</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="_DSC0313-3.jpg" alt="Product 5">
+        <div class="product-info">
+          <h3>Can you afford to be an individual? 5/5</h3>
+          <p>€350</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Sara Tonioni / APERTOSTUDIOS Gallery. All rights reserved.
+  </footer>
+</body>
+</html>

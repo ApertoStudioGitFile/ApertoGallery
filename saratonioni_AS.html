@@ -40,7 +40,13 @@
       max-width: 150px;
       height: auto;
       width: auto;
+      animation: rotateLogo 10s linear infinite; /* Hinzugefügt */
     }
+
+    @keyframes rotateLogo { /* Hinzugefügt */
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
 
     @media (max-width: 600px) {
       .aperto-logo {
@@ -155,7 +161,7 @@
       <a href="#bio">Bio</a>
       <a href="#exhibitions">Exhibitions</a>
       <a href="#contact">Contact</a>
-      <a href="saratonioni_SHOP.html">Shop</a>
+      <a href="https://www.apertostudios.com/coming-soon">Shop</a>
     </nav>
   </header>
 
